@@ -1,3 +1,11 @@
+"""
+Todos: 	
+	1. Make the program run way faster by seperating the utilities the program provides into an assembly line. 
+	2. Make sure that the program is structured such that each user operation requires as few function calls 
+	   as possible, and do the loading of required dictionaries and API calls inside as much as possible. 
+	3. Think of a way to save each track's audio features in a tidy way and start analyzing 
+"""
+
 import random 
 import config 
 import spotipy
@@ -343,12 +351,6 @@ elif analyze_choice == "play":
 else:
 	print("Invalid choice.")
 
-
-""" 
-	Make the program run way faster by seperating the utilities the program provides into an assembly line. 
-	Make sure that the program is structured such that each user operation requires as few function calls 
-	as possible, and do the loading of required dictionaries and API calls inside as much as possible. 
-"""
 
 
 
